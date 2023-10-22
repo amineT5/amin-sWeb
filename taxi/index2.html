@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:300,regular,500,600,700,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="scss/style.css">
+    <style>nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color:none;
+        color: #fff;
+      }
+      body {
+            margin-left: 20px; /* Adjust the margin size as needed */
+        }
+      
+       ul {
+        list-style: disc;
+        margin: 0;
+        padding: 0;
+        font-size:26px;
+        list-style-type: square;
+      }
+      
+      nav ul li {
+        margin-left: 20px;
+      }
+      
+     
+      
+      main {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      article {
+        flex: 1 0 300px;
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      article h2 {
+        font-size: 24px;
+        margin-top: 0;
+       
+      }
+      
+      article p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      
+      
+
+      
+      a:hover {
+        color: #0077b6;
+      }
+      h2:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px; /* Adjust the shadow size as needed */
+    background-color: black; /* Color of the shadow */
+    margin-top: 5px; /* Adjust the distance between the text and the shadow */
+}
+      h1, h2, h3 {
+        color: orange; /* Default color for the headings */
+        margin-bottom: 0.5em;
+        animation: slide-in-left 0.5s ease-in-out;
+        font-size: 27px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      
+      @keyframes slide-in-left {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0%);
+        }
+      }
+      p {
+        color: #555; /* Default color for the paragraphs */
+        font-size: 1.1em;
+        line-height: 1.5em;
+        animation: fade-in 0.5s ease-in-out;
+      }
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+</style>
+    
+    <title>Adam’s Taxi</title>
+ 
+</head>
+<body><div class="wrapper">
+    
+    <header class="header lock-padding" >
+        <div class="container">
+            <div class="header__inner" style="background-color: black !important;">
+                <a href="/" class="header__logo">
+                    <img src="img/deslogo1.png" alt="Logo" class="header__logo img">
+                </a>
+                
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#auto" class="menu__link"></a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#auto" class="menu__link">Auto</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#mover" class="menu__link">notre service</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#package" class="menu__link">baggages</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#info" class="menu__link">Info et localisation</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#contact" class="menu__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__button">
+                    <div class="header__top-info">
+                        <a href="tel:+330616733823" class="header__phone">+33 06-16-73-38-23</a>
+                        <span>lundi samedi 8:00 - 18:00</span>
+                    </div>
+                    <a href="ua/" class="header__lang">
+                        <img src="img/home/france.jpg" alt="img" class="header__lang--img img">
+                        <img src="img/home/KING1.jpg" alt="img" class="header__lang--img img">
+
+                    </a>
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <h2>Mentions légales</h2>
+        <p>Ce site est la propriété de la société ADAM’S TAXI, SASU au capital de 1 000,00 €, RCS Troyes B 890 637 929, dont les coordonnées sont :
+<ul list-style-type: disc;>
+     <li>       Adresse du siège social  : 89 BD BLANQUI 10000 TROYES.</li>
+     <li>     Téléphone : 0616733823</li>
+        <li>     Courrier électronique : contact@adams-taxi.fr</li>
+            <li>    N° de TVA intracommunautaire : FR 08890637929</li>
+                <li>   Crédit photo : Adobe Stock (https://stock.adobe.com), Mr TOUNSI OUASSIM.</li></ul>
+            </p>
+
+            <p>Le Directeur de la publication du site est Mr TOUNSI OUASSIM.</p>
+   <p>Le prestataire assurant l’hébergement du site ainsi que le stockage des informations est la société Microsoft Azure (https://azure.microsoft.com). La création graphique du site a été réalisée par Mohamed amine tlili.</p> </section>
+    <section>
+        <h2 id="act">Le contenu du site</h2>
+        <p>La société ADAM’S TAXI garantit les caractéristiques essentielles des produits. La société ADAM’S TAXI ne peut être tenue responsable de l’utilisation et de l’interprétation de l’information contenue dans ce site.
+
+            La société ADAM’S TAXI ne peut être tenue pour responsable d’éventuels virus qui pourraient infecter l’ordinateur ou tout matériel informatique de l’Internaute, suite à une utilisation, à l’accès, ou au téléchargement provenant de ce site.
+            
+            La société ADAM’S TAXI se réserve le droit de modifier le contenu de ses offres commerciales à tout moment, étant entendu que toute commande effectuée avant la modification de l’offre sera honorée.</p>
+       
+        <p>Consultez notre calendrier pour plus d'informations sur les dates et les horaires des activités.</p>
+    </section>
+    <section>
+        <h2 id="cons">Droits d’auteurs et propriété intellectuelle</h2>
+        <p>Ce site est la propriété de Mr TOUNSI OUASSIM qui est titulaire de tous les droits de propriété intellectuelle. Ce site constitue une œuvre protégée au titre de la propriété intellectuelle, au même titre que la structure générale du site, le graphisme ainsi que les éléments accessibles sur le site (formulaires, textes, photographies, images…).
+
+            Sauf autorisation écrite préalable de Mr TOUNSI OUASSIM, le site et les informations qui y figurent ne peuvent être copiés, reproduits, modifiés, transmis, publiés sur quelques supports que ce soit, ni exploités en tout ou partie à des fins commerciales ou non commerciales, ni servir à la réalisation d’œuvres dérivées.
+            
+            Le non-respect de ces règles peut engager la responsabilité de l’Internaute au sens des articles L. 713-2 et L.713-3 du Code de la Propriété Intellectuelle.</p>
+  
+     
+    </section>
+    <section>
+        <h2 id="reg">Politique de confidentialité des données personnelles</h2>
+        <p>La société ADAM’S TAXI met en œuvre des traitements de données à caractère personnel.
+            En utilisant ce site, vous consentez à la politique de confidentialité.
+            La société ADAM’S TAXI recueille des informations vous concernant lorsque vous vous inscrivez sur le site, lorsque vous vous connectez à votre compte, faites un achat….
+            La société ADAM’S TAXI s’engage à ne collecter que les données strictement nécessaires.</p>
+        <p>Les données personnelles que la société ADAM’S TAXI collecte et stocke sont :</p>
+        <ul>
+            <li>Nom</li>
+            <li>E-mail</li>
+            <li>Adresse – code postal – ville</li>
+            <li>Téléphone</li>
+            <li>adresse IP (Internet Protocol)</li>
+        </ul>
+        <p>Consultez nos articles pour plus d'informations sur chaque régime.</p>
+    </section>
+                </section></body>
+</html>
